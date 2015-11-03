@@ -1,0 +1,17 @@
+<div class="concursos col-xs-12 col-sm-12 col-md-12" ng-controller="MainController">
+	<!-- concursos -->
+	<div class="col-md-12">
+	  <h1 class="title">Concursos</h1>
+	  <div class="col-md-4" ng-repeat="concurso in concursos">
+	    <div class="thumbnail">
+	      <img src="{{concurso.img}}" alt="{{concurso.img}}">
+	      <div class="caption">
+	        <h3>{{concurso.name}}</h3>
+	        <p>{{concurso.text}}</p>
+	        <p><a href="{{concurso.url}}" class="btn btn-primary" role="button">Button</a></p>
+	      </div>
+	    </div>
+	  </div>
+
+	</div>
+</div>

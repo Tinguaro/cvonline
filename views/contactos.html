@@ -1,0 +1,15 @@
+<div class="contactos col-xs-12 col-sm-12 col-md-12" ng-controller="MainController">
+	<!-- contactos -->
+	<div class="col-md-12">
+	<h1 class="title">Contacto</h1>
+	  <div class="col-md-4" ng-repeat="contacto in contactos">
+	    <div class="contact thumbnail">
+	      <img class="img-circle" src="{{contacto.img}}" alt="{{contacto.img}}" />
+	      <div class="caption">
+	        <h2>{{contacto.name}}</h2>
+	      </div>
+	    </div>
+	  </div>
+
+	</div>
+</div>
