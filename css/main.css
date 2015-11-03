@@ -121,3 +121,21 @@ body {
 	background:none !important;
 	border: none !important;
 }
+
+
+@media (max-width: 768px) {
+.concursos a {
+	font-size:10px;
+}
+.conocimientos h2 {
+	font-size:10px;
+}
+.contact h2 {
+	font-size:10px;
+}
+.img-presentation {
+	width:200px;
+	height:200px;
+	margin-top: 50px;
+}
+}
