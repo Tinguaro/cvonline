@@ -1,0 +1,108 @@
+@font-face {
+	font-family: "script";
+	src: url('../fonts/script.ttf');
+}
+@font-face {
+	font-family: "cormorant";
+	src: url('../fonts/cormorant.otf');
+}
+
+
+.container {
+	width:100% !important;
+	height:auto !important;
+	margin:0px !important;
+	padding: 0px !important;
+
+}
+
+body {
+	height: 100%;
+	width:100%;
+	background:#AAA !important;
+}
+
+.title {
+	text-align: center;
+	font-family: "script";
+	font-size: 100px;
+	color:white;
+}
+
+.presentation {
+	background: rgba(50,50,50,1.0);
+	/*box-shadow: 3px 3px 15px #888888;*/
+}
+
+.presentation .name {
+	font-size:25px;
+	font-family: "cormorant";
+	color:white;
+}
+
+.presentation .study {
+	font-size:20px;
+	font-family: "cormorant";
+	color:white;
+	margin-bottom:25px;
+}
+
+.presentation .text {
+	font-size: 30px;
+	margin-top:40px;
+	font-family: "cormorant";
+	color:white;
+}
+
+.background-top {
+	background-image: url('../img/presentation.jpg');
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 100px !important;
+}
+
+.background {
+	background-image: url('../img/presentation.jpg');
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 300px !important;
+}
+
+.img-presentation {
+	width:300px;
+	height:300px;
+	margin-top: 50px;
+}
+
+.concursos {
+	background: rgba(50,50,50,1.0);
+	/*box-shadow: 3px 3px 15px #888888;*/
+}
+
+.conocimientos {
+	background: rgba(50,50,50,1.0);
+	/*box-shadow: 3px 3px 15px #888888;*/
+}
+
+.contactos {
+	background: rgba(50,50,50,1.0);
+	/*box-shadow: 3px 3px 15px #888888;*/
+}
+
+.contact img {
+	width:75px;
+	height:75px;
+}
+
+.contact h2 {
+	text-align: center;
+	color:white;
+	font-family: "cormorant";
+}
+
+.contact.thumbnail {
+	background:none !important;
+	border: none !important;
+}
