@@ -80,10 +80,25 @@ body {
 	background: rgba(50,50,50,1.0);
 	/*box-shadow: 3px 3px 15px #888888;*/
 }
+.concursos img {
+	width:200px;
+	height:150px;
+}
+
+.concursos h2, .concursos p {
+	color:white;
+	font-family: "cormorant";
+}
+.concursos a {
+	font-size: 20px;
+}
 
 .conocimientos {
 	background: rgba(50,50,50,1.0);
 	/*box-shadow: 3px 3px 15px #888888;*/
+}
+.conocimientos h2 {
+	font-family: "impact";
 }
 
 .contactos {
@@ -102,7 +117,7 @@ body {
 	font-family: "cormorant";
 }
 
-.contact.thumbnail {
+.contact.thumbnail, .concursos .thumbnail {
 	background:none !important;
 	border: none !important;
 }

@@ -11,17 +11,17 @@ function MainController($scope){
 	};
 
 	$scope.concursos = [
-		{ 	'img' : '',
+		{ 	'img' : 'img/opendatacanarias.png',
 			'name' : 'OpenDataCanarias',
 			'text' : '',
 			'url' : 'http://www.opendatacanarias.es/apps/tenerife-tourist-guide'
 		},
-		{ 	'img' : '',
+		{ 	'img' : 'img/bigdata.jpg',
 			'name' : 'BigDataChallenge Telecom Italia',
 			'text' : '',
 			'url' : 'https://www.youtube.com/watch?v=8kLdIKfKhh8'
 		},
-		{ 	'img' : '',
+		{ 	'img' : 'img/startup.jpg',
 			'name' : 'Startup Weekend',
 			'text' : '',
 			'url' : 'https://www.facebook.com/proadvisorpage/'
